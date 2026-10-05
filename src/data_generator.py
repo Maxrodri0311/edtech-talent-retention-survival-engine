@@ -1,5 +1,5 @@
 """
-src/data_generator.py - Stochastic Data Generator for Crossing Hurdles
+src/data_generator.py - Stochastic Data Generator for EdTech & Talent Analytics Practice
 ======================================================================
 Generates 50,000+ synthetic student/talent records modeling authentic EdTech
 career acceleration and learning barrier drop-off dynamics:
@@ -32,7 +32,7 @@ def generate_synthetic_dataset(
     Generates realistic EdTech career acceleration telemetry with stochastic
     survival kinetics and causal covariates.
     """
-    print(f"[Data Generator] Generating {num_records:,} student cohort records for Crossing Hurdles...")
+    print(f"[Data Generator] Generating {num_records:,} student cohort records for EdTech & Talent Analytics Practice...")
     start_time = time.time()
     np.random.seed(seed)
 
@@ -158,7 +158,7 @@ def generate_synthetic_dataset(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Crossing Hurdles Synthetic Data Generator")
+    parser = argparse.ArgumentParser(description="EdTech & Talent Analytics Practice Synthetic Data Generator")
     parser.add_argument("--records", type=int, default=50000, help="Number of records to generate")
     parser.add_argument("--output", type=str, default="data/raw_dataset.parquet", help="Output path")
     args = parser.parse_args()

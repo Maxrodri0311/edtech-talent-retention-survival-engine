@@ -2,11 +2,11 @@
 # GHOST PROJECT CONTRACT MANIFEST (Profile-as-Code SSOT)
 # ==============================================================================
 id: "GP-023"
-name: "Crossing Hurdles - Talent Retention & Learning Barrier Survival Engine"
+name: "EdTech Talent Retention & Learning Barrier Survival Engine"
 role_title: "Senior Data Scientist & Solutions Architect"
 employer_name: "Independent Practice"
 location: "Remote"
-repo_url: "https://github.com/Maxrodri0311/crossing-hurdles-talent-survival-engine"
+repo_url: "https://github.com/Maxrodri0311/edtech-talent-retention-survival-engine"
 domain_cluster: "EdTech, Career Acceleration & Human Capital Analytics"
 delivery_paradigm: "INTERACTIVE_WEB_PRODUCT & EXPLAINABLE_AI_INFERENCE"
 

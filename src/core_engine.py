@@ -413,7 +413,7 @@ def create_engine(data_path: str = "data/raw_dataset.parquet") -> AnalyticsEngin
 if __name__ == "__main__":
     engine = create_engine()
     print("==================================================================")
-    print("⚡ CROSSING HURDLES: EXPLAINABLE SURVIVAL ANALYTICS ENGINE (DIP)")
+    print("⚡ EdTech & Talent Analytics Practice: EXPLAINABLE SURVIVAL ANALYTICS ENGINE (DIP)")
     print("==================================================================")
     
     life_table = engine.compute_actuarial_life_table()

@@ -1,18 +1,18 @@
-# 📐 SPEC & Blueprint: Crossing Hurdles — Talent Retention & Learning Barrier Survival Engine (GP-023)
+# 📐 SPEC & Blueprint: EdTech & Talent Analytics Practice — Talent Retention & Learning Barrier Survival Engine (GP-023)
 
-**Platform:** Crossing Hurdles - Talent Retention & Learning Barrier Survival Engine  
+**Platform:** EdTech Talent Retention & Learning Barrier Survival Engine  
 **Target Role:** Senior Data Scientist & Solutions Architect  
 **Domain:** EdTech, Career Acceleration & Human Capital Analytics  
 **Perspective:** Causal & Survival Lifecycle Analytics (`EXPLAINABLE_ANALYTICS` & `INTERACTIVE_WEB_PRODUCT`)  
 **Core Algorithms:** Kaplan-Meier Product-Limit Estimator, Actuarial Life Tables, Regularized Multivariate Cox, Dynamic Landmark Analysis, Causal Uplift Modeling (HTE/ITE), Knapsack Budget Optimization, Split-Conformalized Survival Prediction  
 **Architecture Pattern:** Clean Architecture & Dependency Inversion Principle (DIP) with DuckDB In-Memory OLAP  
-**Repository:** [https://github.com/Maxrodri0311/crossing-hurdles-talent-survival-engine](https://github.com/Maxrodri0311/crossing-hurdles-talent-survival-engine)
+**Repository:** [https://github.com/Maxrodri0311/edtech-talent-retention-survival-engine](https://github.com/Maxrodri0311/edtech-talent-retention-survival-engine)
 
 ---
 
 ## 🏛️ 1. The Core Business Bottleneck
 
-Crossing Hurdles opera programas intensivos de aceleración técnica e inserción laboral. La organización enfrenta un **cuello de botella operativo y financiero crítico**:
+EdTech & Talent Analytics Practice opera programas intensivos de aceleración técnica e inserción laboral. La organización enfrenta un **cuello de botella operativo y financiero crítico**:
 - **Deserción Acumulada del 51.9%:** Más de la mitad de los candidatos abandonan o quedan rezagados antes de completar el currículo de 16 semanas, concentrándose el mayor pico de riesgo entre las semanas 3 y 7 (cuando se introducen proyectos de arquitectura compleja).
 - **Costo Hundido Operacional:** Pérdida de más de **$195,000 USD anuales** en capacidad de mentoría dedicada a cohorts desiertas y una contracción del 28% en el flujo de graduados colocados en empresas asociadas.
 - **Ceguera Analítica Retroactiva:** Los tableros tradicionales de Business Intelligence operaban con agregaciones SQL descriptivas ("cuántos abandonaron el mes anterior"), tratando a los estudiantes que siguen cursando como "no desertores" (sesgo de supervivencia estático), sin capacidad de predecir el riesgo continuo en función del tiempo transcurrido ni explicar las causas raíces (*hurdles*).

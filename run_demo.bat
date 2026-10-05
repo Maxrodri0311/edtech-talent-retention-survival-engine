@@ -2,10 +2,10 @@
 chcp 65001 >nul
 setlocal EnableDelayedExpansion
 
-title "Crossing Hurdles: Talent Retention Survival Engine"
+title "EdTech & Talent Analytics Practice: Talent Retention Survival Engine"
 
 echo ======================================================================
-echo  Crossing Hurdles: Talent Retention Survival Engine (GP-023)
+echo  EdTech & Talent Analytics Practice: Talent Retention Survival Engine (GP-023)
 echo  Automated Pipeline, In-Memory OLAP and Test Suite (1-Click Run)
 echo ======================================================================
 echo.

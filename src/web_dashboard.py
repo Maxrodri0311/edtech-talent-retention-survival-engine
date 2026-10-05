@@ -1,7 +1,7 @@
 """
 src/web_dashboard.py - Interactive Policy Simulation Web Server Launcher
 ========================================================================
-Lightweight entry point to serve and open the Crossing Hurdles Interactive
+Lightweight entry point to serve and open the EdTech & Talent Analytics Practice Interactive
 Web Simulator (web/index.html) locally via Python standard library http.server.
 """
 
@@ -45,7 +45,7 @@ def launch_web_server(port: int = 8080, open_browser: bool = True, timeout_sec: 
 
     url = f"http://localhost:{port}/index.html"
     print("=" * 80)
-    print("⚡ CROSSING HURDLES: INTERACTIVE DECISION & CONFORMAL SIMULATOR")
+    print("⚡ EdTech & Talent Analytics Practice: INTERACTIVE DECISION & CONFORMAL SIMULATOR")
     print(f"🌐 Server running at: {url}")
     print(f"📁 Serving directory: {WEB_DIR}")
     print("=" * 80)
